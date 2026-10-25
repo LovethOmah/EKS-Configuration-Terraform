@@ -1,0 +1,27 @@
+# Terraform working directory (providers and modules; re-created by terraform init)
+.terraform/
+
+# State files: contain resource IDs, ARNs and can contain sensitive values
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files that may hold secrets
+*.tfvars
+*.tfvars.json
+
+# Local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# Saved plans
+*.tfplan
